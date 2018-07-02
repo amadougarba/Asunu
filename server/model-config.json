@@ -38,5 +38,9 @@
   "Alerter": {
     "dataSource": "sunu",
     "public": true
+  },
+  "Annonce": {
+    "dataSource": "sunu",
+    "public": true
   }
 }
