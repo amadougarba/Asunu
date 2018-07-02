@@ -1,0 +1,42 @@
+{
+  "name": "Alerter",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Identification": {
+      "type": "number",
+      "required": true
+    },
+    "LibelleAlerte": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "photo": {
+      "type": "string",
+      "required": true
+    },
+    "Latitude": {
+      "type": "number",
+      "required": true
+    },
+    "Longitude": {
+      "type": "number",
+      "required": true
+    },
+    "Etat": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
