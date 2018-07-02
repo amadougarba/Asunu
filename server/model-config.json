@@ -50,5 +50,9 @@
   "Rapport": {
     "dataSource": "sunu",
     "public": true
+  },
+  "Annuaire": {
+    "dataSource": "sunu",
+    "public": true
   }
 }
