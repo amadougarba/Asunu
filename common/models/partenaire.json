@@ -1,0 +1,30 @@
+{
+  "name": "partenaire",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number",
+      "required": true
+    },
+    "Nom_Entreprise": {
+      "type": "string",
+      "required": true
+    },
+    "Adresse": {
+      "type": "string",
+      "required": true
+    },
+    "Etat": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

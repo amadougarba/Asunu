@@ -42,5 +42,9 @@
   "Annonce": {
     "dataSource": "sunu",
     "public": true
+  },
+  "partenaire": {
+    "dataSource": "sunu",
+    "public": true
   }
 }
